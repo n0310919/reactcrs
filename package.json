@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "React Project Template with automated build.",
   "engines": {
-    "node": "8.11.2"
+    "node": "8.12.0"
   },
-  "main": "javascript.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"All tests passed\" && exit 0",
+    "start":"http-server src",
+    "lint": "eslint . --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "echo \"BUILD OK\" && exit 0",
-    "prebuild": "npm run test",
+    "prebuild": "npm run version && npm run test",
     "version": "node version-check.js"
   },
   "repository": {
@@ -23,6 +25,9 @@
   },
   "homepage": "https://github.com/n0310919/reactcrs#readme",
   "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-react": "^7.11.1",
+    "http-server": "^0.11.1",
     "semver": "^5.5.1"
   }
 }

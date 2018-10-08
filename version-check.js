@@ -8,7 +8,7 @@ if (semver.gt(expectedVersion,actualVersion)){
     console.log('Incorrect node version. Expected '+expectedVersion
     + '. Actual: ' + actualVersion);
     process.exit(1);
-
+    
 } else {
     console.log('Node version ok: ' + actualVersion);
     
