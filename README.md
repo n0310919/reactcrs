@@ -1,8 +1,10 @@
-# My Project
+# React Project Template
+React Project Template with automated build.
 
-This is my project.
 
 ##Installation
+1. Install Node.js
+2. Install git.
 
 ##Usage
 
