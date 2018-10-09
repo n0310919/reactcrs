@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start":"http-server src",
+    "start": "http-server src",
     "lint": "eslint . --ext .js",
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "echo \"BUILD OK\" && exit 0",
